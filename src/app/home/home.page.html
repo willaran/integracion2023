@@ -1,20 +1,91 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content >
+<header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<nav>
+  <ul>
+    <li class="li-left">
+      <a href="#">
+        <figure>
+          <img src="../../assets/img/music-circle-icon-guitar-png.webp" alt="">
+        </figure>
+      </a>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        
+    </li>
+    <li class="li-center">
+      <h1>Music pro</h1>
+    </li>
+    <li class="li-right">
+      <figure>
+        <img src="../../assets/img/icons8-menú-xbox-64 (1).png" alt="">
+      </figure>
+    </li>
+  </ul>
+</nav>
+</header>
+
+
+<main>
+
+  <div class="slide">
+    <div class="slide-inner">
+        <input class="slide-open" type="radio" id="slide-1" 
+              name="slide" aria-hidden="true" hidden="" checked="checked">
+        <div class="slide-item">
+            <img src="../../assets/img/fender.jpg">
+        </div>
+        <input class="slide-open" type="radio" id="slide-2" 
+              name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="../../assets/img/40bfb30b9879d996a54e6bbc9b2b11ff.png">
+        </div>
+        <input class="slide-open" type="radio" id="slide-3" 
+              name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="../../assets/img/bajo-electrico-american-ultra-jazz-bass-natural.webp">
+        </div>
+        <label for="slide-3" class="slide-control prev control-1">‹</label>
+        <label for="slide-2" class="slide-control next control-1">›</label>
+        <label for="slide-1" class="slide-control prev control-2">‹</label>
+        <label for="slide-3" class="slide-control next control-2">›</label>
+        <label for="slide-2" class="slide-control prev control-3">‹</label>
+        <label for="slide-1" class="slide-control next control-3">›</label>
+        <ol class="slide-indicador">
+            <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+            </li>
+        </ol>
+    </div>
+  </div> 
+
+  <div class="conten_venta grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>  
+
+
   </div>
+</main>
+
+
+
+<footer>
+  <ul>
+    <li class="li-left">
+      <h3>Logo</h3>
+    </li>
+    <li class="li-center">
+      <h2>Music pro</h2>
+    </li>
+    <li class="li-right">
+      <h3>menu</h3>
+    </li>
+  </ul>
+</footer>
 </ion-content>
